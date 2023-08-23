@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <title>Assignment 2</title>
+
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"></script>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="color: black; font-size:24px;">
+                <img src="./Fresh Fruit Logo Design 1.png" alt="logo" class="logo">
+                Natural
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" style="color: black;">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Trending.html" style="color: black;">TRENDING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Store.html" style="color: black;">STORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Organic.html" style="color: black;">ORGANIC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html" style="color: black;">CONTACT</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class=" px-2 search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!------------------------------------->
+
+
+    <section class="product" id="product">
+        <div class="container py-3">
+            <div class="row py-5">
+                <div class="col-lg-5 m-auto text-center">
+                    <h1>What's Trending</h1>
+                    <h6 style="color:red;"> Be Healthy Organic Food</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------------------------->
+
+    <div class="container-fluid my-3 products">
+        <div class="row">
+            <div class="col-12 m-auto">
+                <div class=" owl-carousel owl-theme">
+                                                                              
+                    <div class="item" data-name="p-1">
+                        <div class="card border-0 shadow">
+                            <img src="./kurkure.jpeg" alt="" class="card-img-top kurkure">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h5>Kurkure</h5>
+                                    <h6 style="color:gray">Rs.30</h6>
+                                </div>
+                                <button class="btn btn-primary btn-sm float-end book-now-button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item" data-name="p-2">
+                        <div class="card border-0 shadow">
+                            <img src="./milk.jpeg" alt="" class="card-img-top milk">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h5>Healthy Milk</h5>
+                                    <h6 style="color:gray">Rs.45</h6>
+                                </div>
+                                <button class="btn btn-primary btn-sm float-end book-now-button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-name="p-3">
+                        <div class="card border-0 shadow">
+                            <img src="./hersheys.jpeg" alt="" class="card-img-top syrup">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h5>Hershey's Syrup</h5>
+                                    <h6 style="color:gray">Rs.280</h6>
+                                </div>
+                                <button class="btn btn-primary btn-sm float-end book-now-button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-name="p-4">
+                        <div class="card border-0 shadow">
+                            <img src="./sandwich.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h5>Mason Dixie Sandwich</h5>
+                                    <h6 style="color:gray">Rs.340</h6>
+                                </div>
+                                <button class="btn btn-primary btn-sm float-end book-now-button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-name="p-5">
+                        <div class="card border-0 shadow">
+                            <img src="./maggie.jpeg" alt="" class="card-img-top maggie">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h5>Masala Cuppa Noodles</h5>
+                                    <h6 style="color:gray">Rs.40</h6>
+                                </div>
+                                <button class="btn btn-primary btn-sm float-end book-now-button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-name="p-6">
+                        <div class="card border-0 shadow">
+                            <img src="./green beans.jpeg" alt="" class="card-img-top beans">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h5>Del Monte green beans</h5>
+                                    <h6 style="color:gray">Rs.130</h6>
+                                </div>
+                                <button class="btn btn-primary btn-sm float-end book-now-button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!----------------------------------------------------->
+
+    <div class="container-fluid my-3 products">
+        <div class="row">
+            <div class="col-12 m-auto">
+                <div class=" owl-carousel owl-theme">
+                    <div class="item" data-name="p-7">
+                        <div class="card border-0 shadow">
+                            <img src="./snekers.jpeg" alt="" class="card-img-top snkrs">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h5>Snickers</h5>
+                                    <h6 style="color:gray">Rs.35</h6>
+                                </div>
+                                <button class="btn btn-primary btn-sm float-end book-now-button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item" data-name="p-8">
+                        <div class="card border-0 shadow">
+                            <img src="./ragi sticks.jpg" alt="" class="card-img-top ragi">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h5>Ragi Sticks</h5>
+                                    <h6 style="color:gray">Rs.20</h6>
+                                </div>
+                                <button class="btn btn-primary btn-sm float-end book-now-button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-name="p-9">
+                        <div class="card border-0 shadow">
+                            <img src="./banana chips.jpeg" alt="" class="card-img-top chips">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h5>Banana Chips</h5>
+                                    <h6 style="color:gray">Rs.85</h6>
+                                </div>
+                                <button class="btn btn-primary btn-sm float-end book-now-button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-name="p-10">
+                        <div class="card border-0 shadow">
+                            <img src="./poha.jpg" alt="" class="card-img-top poha">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h5>Poha</h5>
+                                    <h6 style="color:gray">Rs.30</h6>
+                                </div>
+                                <button class="btn btn-primary btn-sm float-end book-now-button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-name="p-11">
+                        <div class="card border-0 shadow">
+                            <img src="./pasta.jpeg" alt="" class="card-img-top pasta">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h5>Pasta</h5>
+                                    <h6 style="color:gray">Rs.20</h6>
+                                </div>
+                                <button class="btn btn-primary btn-sm float-end book-now-button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" data-name="p-12">
+                        <div class="card border-0 shadow">
+                            <img src="./chocos.jpg" alt="" class="card-img-top chocos">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h5>Chocos</h5>
+                                    <h6 style="color:gray">Rs.60</h6>
+                                </div>
+                                <button class="btn btn-primary btn-sm float-end book-now-button">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products-preview">
+            <div class="preview active" data-target="p-1">
+                <i class="fas fa-times"></i>
+                <img src="./kurkure.jpeg" alt="">
+                <h3>Kurkure</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>Kurkure, a popular and flavorful snack, is loved for its unique and satisfying crunch. With a wide range of delightful flavors.</p>
+                <div class="price">Rs.35</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+    
+            </div>
+            <div class="preview" data-target="p-2">
+                <i class="fas fa-times"></i>
+                <img src="./milk.jpeg" alt="">
+                <h3>Healthy Milk</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>( 250 )</span>
+                </div>
+                <p>
+                    Healthy Milk, a nourishing delight, is a testament to the goodness of nature. Sourced from well-cared-for cows, it embodies purity and quality.</p>
+                <div class="price">Rs.45</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+    
+            </div>
+            <div class="preview" data-target="p-3">
+                <i class="fas fa-times"></i>
+                <img src="./hersheys.jpeg" alt="">
+                <h3>Hearsheys</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(250)</span>
+                </div>
+                <p>Hershey's is the embodiment of chocolate perfection. Every bite of Hershey's is a symphony of rich flavors and velvety textures that ignite the senses.</p>
+                <div class="price">Rs.280</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+    
+            </div>
+            <div class="preview" data-target="p-4">
+                <i class="fas fa-times"></i>
+                <img src="./sandwich.jpg" alt="">
+                <h3>Mason Dixie Sandwich</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(250)</span>
+                </div>
+                <p>
+                    Mason Dixie Sandwich, a culinary masterpiece, redefines the art of sandwich making. Crafted with care and creativity, each bite is a blend of flavors.</p>
+                <div class="price">Rs.340</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+    
+            </div>
+            <div class="preview" data-target="p-5">
+                <i class="fas fa-times"></i>
+                <img src="./maggie.jpeg" alt="">
+                <h3>Masala Cuppa Noodles</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(250)</span>
+                </div>
+                <p>Masala Cuppa Noodles, a delightful fusion of flavors, brings comfort and convenience to your plate. Bursting with aromatic spices and a touch of nostalgia.</p>
+                <div class="price">Rs.40</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+    
+            </div>
+            <div class="preview" data-target="p-6">
+                <i class="fas fa-times"></i>
+                <img src="./green beans.jpeg" alt="">
+                <h3>Del Monte  green beans</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(250)</span>
+                </div>
+                <p>Green Beans, nature's vibrant offering, showcase the essence of freshness on your plate. With crisp texture and vibrant color,  add a touch of vitality to any meal.</p>
+                <div class="price">Rs.130</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+    
+            </div>
+            <div class="preview" data-target="p-7">
+                <i class="fas fa-times"></i>
+                <img src="./sandwich.jpg" alt="">
+                <h3>Mason Dixie Sandwich</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(250)</span>
+                </div>
+                <p>
+                    Mason Dixie Sandwich, a culinary masterpiece, redefines the art of sandwich making. Crafted with care and creativity, each bite is a blend of flavors.</p>
+                <div class="price">Rs.340</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+    
+            </div>
+            <div class="preview" data-target="p-8">
+                <i class="fas fa-times"></i>
+                <img src="./sandwich.jpg" alt="">
+                <h3>Mason Dixie Sandwich</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(250)</span>
+                </div>
+                <p>
+                    Mason Dixie Sandwich, a culinary masterpiece, redefines the art of sandwich making. Crafted with care and creativity, each bite is a blend of flavors.</p>
+                <div class="price">Rs.340</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+    
+            </div>
+            <div class="preview" data-target="p-9">
+                <i class="fas fa-times"></i>
+                <img src="./sandwich.jpg" alt="">
+                <h3>Mason Dixie Sandwich</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(250)</span>
+                </div>
+                <p>
+                    Mason Dixie Sandwich, a culinary masterpiece, redefines the art of sandwich making. Crafted with care and creativity, each bite is a blend of flavors.</p>
+                <div class="price">Rs.340</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+    
+            </div>
+            <div class="preview" data-target="p-10">
+                <i class="fas fa-times"></i>
+                <img src="./sandwich.jpg" alt="">
+                <h3>Mason Dixie Sandwich</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(250)</span>
+                </div>
+                <p>
+                    Mason Dixie Sandwich, a culinary masterpiece, redefines the art of sandwich making. Crafted with care and creativity, each bite is a blend of flavors.</p>
+                <div class="price">Rs.340</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+    
+            </div>
+            <div class="preview" data-target="p-11">
+                <i class="fas fa-times"></i>
+                <img src="./sandwich.jpg" alt="">
+                <h3>Mason Dixie Sandwich</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(250)</span>
+                </div>
+                <p>
+                    Mason Dixie Sandwich, a culinary masterpiece, redefines the art of sandwich making. Crafted with care and creativity, each bite is a blend of flavors.</p>
+                <div class="price">Rs.340</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+    
+            </div>
+            <div class="preview" data-target="p-12">
+                <i class="fas fa-times"></i>
+                <img src="./sandwich.jpg" alt="">
+                <h3>Mason Dixie Sandwich</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(250)</span>
+                </div>
+                <p>
+                    Mason Dixie Sandwich, a culinary masterpiece, redefines the art of sandwich making. Crafted with care and creativity, each bite is a blend of flavors.</p>
+                <div class="price">Rs.340</div>
+                <div class="buttons">
+                    <a href="#" class="buy">buy now</a>
+                    <a href="#" class="cart">add to cart</a>
+                </div>
+    
+            </div>
+        </div>
+    
+            
+        </div>
+            
+    </div>
+    <div class="row">
+        <div class="col-lg-6 text-center m-auto">
+            <div id="Load-more">Load more</div>
+        </div>
+    </div>
+
+    <div class="row-last" style="margin-top:-25px; border-radius:0;">
+        <div class="row row-cols-1 row-cols-md-3  p-3 text-white" style="border-radius:0;">
+            <div class="col" style="padding-left: 150px; border-radius:0;">
+                <h4>CALL US</h4>
+                <p>+91 7842869261</p>
+                <p>+91 9826370221</p>
+            </div>
+            <div class="col">
+                <h4>LOCATION</h4>
+                <p> Road No 72 Opp. Bharatiya Vidya Bhavan School Film Nagar, Jubilee Hills, Hyderabad, Telangana 500033
+                    Hyderabad 500 033, Telangana State, India.</p>
+            </div>
+            <div class="col" style="padding-left: 150px; border-radius:0;">
+                <h4>Email</h4>
+                <p>organic products@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 15,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+        let previewContainer = document.querySelector('.products-preview');
+    let previewBox = previewContainer.querySelectorAll('.preview');
+
+    document.querySelectorAll('.products .book-now-button').forEach(button => {
+        button.onclick = () => {
+            previewContainer.style.display = 'flex';
+            let name = button.closest('.item').getAttribute('data-name');
+            previewBox.forEach(preview => {
+                let target = preview.getAttribute('data-target');
+                if (name === target) {
+                    preview.classList.add('active');
+                } else {
+                    preview.classList.remove('active');
+                }
+            });
+        };
+    });
+
+    previewBox.forEach(close => {
+        close.querySelector('.fa-times').onclick = () => {
+            close.classList.remove('active');
+            previewContainer.style.display = 'none';
+        };
+    });
+</script>
+</body>
+</html>
